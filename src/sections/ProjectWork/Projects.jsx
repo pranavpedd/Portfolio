@@ -13,18 +13,20 @@ function Projects() {
           src={stockGraph}
           link="https://github.com/pranavpedd/StockPricePredictor"
           h3="Stock Price Predictor"
-          p="May 2023"
-        />
-        <a href="https://pranavpedd.github.io/StockPricePredictor/">
-          <p>Full website</p>
-        </a>
+          p="May 2023">
+        </ProjectCard>
         <ProjectCard
           src={spotrecs}
           link="https://github.com/pranavpedd/SpotRecs"
           h3="SpotRecs"
           p="Dec 2024"
         />
-        <ProjectCard src={divyup} link="https://github.com/pranavpedd/DivyUp" h3='DivyUp' p='April 2023'/>
+        <ProjectCard
+          src={divyup}
+          link="https://github.com/pranavpedd/DivyUp"
+          h3="DivyUp"
+          p="April 2023"
+        />
       </div>
     </section>
   );

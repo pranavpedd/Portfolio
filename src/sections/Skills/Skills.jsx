@@ -13,7 +13,7 @@ function Skills() {
 
     return (
       <section id="skills" className={styles.container}>
-        <h1 className='sectionTitle'>Skills</h1>
+        <h1 className='sectionTitle'>Technologies</h1>
         <div className={styles.skillsList}>
           <SkillList src={checkmark} skill="Python" />
           <SkillList src={checkmark} skill="JavaScript" />

@@ -40,6 +40,7 @@
     position: fixed;
     top: 25px;
     right: 25px;
+    width: 40px;
 }
 
 .colorMode:hover {
