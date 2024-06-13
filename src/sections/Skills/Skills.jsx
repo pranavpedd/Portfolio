@@ -1,10 +1,10 @@
 /* eslint-disable */
 
-import styles from './SkillsStyles.module.css';
-import checkmarkLight from '../../assets/checkmark-light.svg'
 import checkmarkDark from '../../assets/checkmark-dark.svg';
-import { useTheme } from '../../sharedStyles/ThemeContext';
-import SkillList from '../../sharedStyles/SkillList';
+import checkmarkLight from '../../assets/checkmark-light.svg';
+import SkillList from '../../groupedComponents/SkillList';
+import { useTheme } from '../../groupedComponents/ThemeContext';
+import styles from './SkillsStyles.module.css';
 
 function Skills() {
     const { theme, toggleTheme } = useTheme();
@@ -13,7 +13,7 @@ function Skills() {
 
     return (
       <section id="skills" className={styles.container}>
-        <h1 className='sectionTitle'>Technologies</h1>
+        <h1 className="sectionTitle">Technologies</h1>
         <div className={styles.skillsList}>
           <SkillList src={checkmark} skill="Python" />
           <SkillList src={checkmark} skill="JavaScript" />
@@ -24,6 +24,8 @@ function Skills() {
           <SkillList src={checkmark} skill="Racket" />
           <SkillList src={checkmark} skill="SAS" />
           <SkillList src={checkmark} skill="Typescript" />
+          <SkillList src={checkmark} skill="SQL" />
+          <SkillList src={checkmark} skill="x86/a86" />
         </div>
         <hr />
         <div className={styles.skillsList}>
@@ -36,6 +38,7 @@ function Skills() {
           <SkillList src={checkmark} skill="Matplotlib" />
           <SkillList src={checkmark} skill="Seaborn" />
           <SkillList src={checkmark} skill="Flask" />
+          <SkillList src={checkmark} skill="OpenCV" />
         </div>
         <hr />
         <div className={styles.skillsList}>
@@ -47,6 +50,7 @@ function Skills() {
           <SkillList src={checkmark} skill="Anaconda" />
           <SkillList src={checkmark} skill="Jupyter" />
           <SkillList src={checkmark} skill="Flask" />
+          <SkillList src={checkmark} skill="MySQL" />
         </div>
       </section>
     );

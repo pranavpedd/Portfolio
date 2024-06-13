@@ -1,7 +1,7 @@
 import divyup from '../../assets/divyup.png';
 import spotrecs from '../../assets/spotrecs.png';
 import stockGraph from '../../assets/stock price graph.png';
-import ProjectCard from '../../sharedStyles/ProjectCard';
+import ProjectCard from '../../groupedComponents/ProjectCard';
 import styles from './ProjectsStyles.module.css';
 
 function Projects() {

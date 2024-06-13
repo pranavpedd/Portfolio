@@ -5,20 +5,24 @@
 
 :root {
     --background-color: #fff;
+    --btn-color: #0987f2;
     --btn-text-color: #fff;
     --project-card-bg: #ffffff00;
     --text-color: #222;
     --form-text-color: #555;
     --footer-text-color: #888;
+    --field-border-color: #222;
 }
 
 [data-theme='dark'] {
     --background-color: #222;
-    --btn-text-color: #fff;
+    --btn-color: #fff;
+    --btn-text-color: #222;
     --project-card-bg: #fff;
     --text-color: #fff;
     --form-text-color: #fff;
     --footer-text-color: #bbb;
+    --field-border-color: #fff;
 }
 
 body {
@@ -50,16 +54,16 @@ h1 {
 }
 
 h2, h3 {
-    font-size: 26px;
+    font-size: 20px;
 }
 
 h1 {
     font-family: 'Rubik', sans-serif;
-    font-size: 36px;
+    font-size: 32px;
 }
 
 p {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 300;
 }
 
@@ -69,4 +73,40 @@ p {
 
 .hover {
     cursor: pointer;
+}
+
+@media (width >= 800px) {
+    #root {
+        gap: 75px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2, h3 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .sectionTitle {
+        margin-bottom: 60px;
+    }
+}
+
+@media (width >= 1400px) {
+    #root {
+        gap: 100px;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    .sectionTitle {
+        margin-bottom: 75px;
+    }
 }

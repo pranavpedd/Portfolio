@@ -5,7 +5,7 @@ import linkedinLight from '../../assets/linkedin-light.svg';
 import moon from '../../assets/moon.svg';
 import pfp from '../../assets/profile pic.png';
 import sun from '../../assets/sun.svg';
-import { useTheme } from '../../sharedStyles/ThemeContext.jsx';
+import { useTheme } from '../../groupedComponents/ThemeContext.jsx';
 import styles from './IntroStyles.module.css';
 
 function Intro() {
