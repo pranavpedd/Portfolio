@@ -98,6 +98,10 @@ function Skills() {
                 />
                 <SkillList
                     src={checkmark}
+                    skill='OpenAI API'
+                />
+                <SkillList
+                    src={checkmark}
                     skill='Flask'
                 />
                 <SkillList

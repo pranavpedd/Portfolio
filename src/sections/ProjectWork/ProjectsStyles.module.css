@@ -5,8 +5,8 @@
     margin-bottom: 60px;
 
     img {
-        max-width: 500px;
-        max-height: 200px;
+        max-width: 250px;
+        /* max-height: 200px; */
         align-self: center;
         border-radius: 20px;
     }

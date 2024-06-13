@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 60px;
+
+    span {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+    }
+
+    img {
+        width: 40px;
+    }
+}
+
+.courseList {
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    max-width: 100ch;
+    column-gap: 20px;
+}

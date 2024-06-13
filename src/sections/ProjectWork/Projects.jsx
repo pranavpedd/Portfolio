@@ -1,6 +1,7 @@
 import divyup from '../../assets/divyup.png';
+import mealgpt from '../../assets/meal gpt app logo.jpeg';
 import spotrecs from '../../assets/spotrecs.png';
-import stockGraph from '../../assets/stock price graph.png';
+import stockPrice from '../../assets/stock price.png';
 import ProjectCard from '../../groupedComponents/ProjectCard';
 import styles from './ProjectsStyles.module.css';
 
@@ -12,10 +13,10 @@ function Projects() {
             <h1 className='sectionTitle'>Projects</h1>
             <div className={styles.projectsContainer}>
                 <ProjectCard
-                    src={stockGraph}
+                    src={stockPrice}
                     link='https://github.com/pranavpedd/StockPricePredictor'
-                    h3='Stock Price Predictor'
-                    p='May 2023'></ProjectCard>
+                    h3='StockPricePredictor'
+                    p='May 2023' />
                 <ProjectCard
                     src={spotrecs}
                     link='https://github.com/pranavpedd/SpotRecs'
@@ -27,6 +28,12 @@ function Projects() {
                     link='https://github.com/pranavpedd/DivyUp'
                     h3='DivyUp'
                     p='April 2023'
+                />
+                <ProjectCard
+                    src={mealgpt}
+                    link='https://github.com/pranavpedd/MealGPT'
+                    h3='MealGPT'
+                    p='May 2024'
                 />
             </div>
         </section>
