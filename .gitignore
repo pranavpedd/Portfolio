@@ -12,11 +12,6 @@ dist
 dist-ssr
 *.local
 
-.eslintrc.cjs
-vite.config.js
-package-lock.json
-package.json
-
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
