@@ -9,7 +9,7 @@
     position: relative;
 
     .intro {
-        max-width: 330px;
+        max-width: 250px;
     }
 
     span {
@@ -52,7 +52,7 @@
 }
 
 .description {
-    max-width: 40ch;
+    max-width: 24ch;
     align-self: center;
 }
 
@@ -73,11 +73,15 @@
             width: 350px;
         }
     }
+
+    .description {
+        max-width: 36ch;
+    }
 }
 
 @media (width >= 1400px) {
     .container {
-        .hero {
+        .intro {
             max-width: 400px;
             width: 400px;
         }
