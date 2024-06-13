@@ -16,14 +16,9 @@ function Intro() {
     const githubIcon = theme === 'light' ? githubLight : githubDark;
 
     return (
-        <section
-            id='intro'
-            className={styles.container}>
+        <section id='intro' className={styles.container}>
             <div className={styles.colorModeContainer}>
-                <img
-                    className={styles.intro}
-                    src={pfp}
-                    alt='pranav pfp'></img>
+                <img className={styles.intro} src={pfp} alt='pranav pfp'></img>
                 <img
                     className={styles.colorMode}
                     src={themeIcon}
@@ -36,24 +31,20 @@ function Intro() {
                 </h1>
                 <h2>Aspiring Full-Stack Developer</h2>
                 <span>
-                    <a
-                        href='https://www.linkedin.com/in/pranavpedd/'
-                        target='_blank'>
-                        <img
-                            src={linkedinIcon}
-                            alt='linked in icon'></img>
+                    <a href='https://www.linkedin.com/in/pranavpedd/' target='_blank'>
+                        <img src={linkedinIcon} alt='linked in icon'></img>
                     </a>
-                    <a
-                        href='https://github.com/pranavpedd'
-                        target='_blank'>
-                        <img
-                            src={githubIcon}
-                            alt='github in icon'></img>
+                    <a href='https://github.com/pranavpedd' target='_blank'>
+                        <img src={githubIcon} alt='github in icon'></img>
                     </a>
                 </span>
                 <p className={styles.description}>
-                    Fourth year student at the University of Maryland, College Park studying
-                    Computer Science and Statistics.
+                    I am a senior at the University of Maryland, College Park, studying Computer
+                    Science and Statistics.
+                </p>
+                <p className={styles.description}>
+                    Below, you will find my notable projects, technologies, coursework, and a form
+                    to contact me.
                 </p>
             </div>
         </section>

@@ -7,16 +7,15 @@ import styles from './ProjectsStyles.module.css';
 
 function Projects() {
     return (
-        <section
-            id='projects'
-            className={styles.container}>
+        <section id='projects' className={styles.container}>
             <h1 className='sectionTitle'>Projects</h1>
             <div className={styles.projectsContainer}>
                 <ProjectCard
                     src={stockPrice}
                     link='https://github.com/pranavpedd/StockPricePredictor'
                     h3='StockPricePredictor'
-                    p='May 2023' />
+                    p='May 2023'
+                />
                 <ProjectCard
                     src={spotrecs}
                     link='https://github.com/pranavpedd/SpotRecs'

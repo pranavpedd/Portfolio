@@ -3,14 +3,9 @@
 function Course({ src, name, code }) {
     return (
         <span>
-            <img
-                src={src}
-                alt='notebook icon'></img>
-            <p>
-                {name} <br />
-                {code}
-            </p>
-            {/* <p>{code}</p> */}
+            <img src={src} alt='notebook icon' />
+            <h2>{name}</h2>
+            <p>{code}</p>
         </span>
     );
 }

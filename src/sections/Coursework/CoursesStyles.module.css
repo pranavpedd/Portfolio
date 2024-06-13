@@ -6,7 +6,7 @@
 
     span {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         gap: 5px;
     }
@@ -22,6 +22,18 @@
     align-self: center;
     flex-wrap: wrap;
     row-gap: 30px;
-    max-width: 100ch;
+    max-width: 30ch;
     column-gap: 20px;
+}
+
+@media (width >= 800px) {
+    .courseList {
+        max-width: fit-content;
+        gap: 30px;
+        max-width: 140ch;
+
+        p {
+            font-size: 20px;
+        }
+    }
 }

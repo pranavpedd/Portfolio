@@ -9,63 +9,22 @@ import styles from './CoursesStyles.module.css';
 function Courses() {
     const { theme, toggleTheme } = useTheme();
 
-    const notebook = theme === 'light' ?  notebookDark : notebookLight;
+    const notebook = theme === 'light' ? notebookDark : notebookLight;
     return (
-        <section
-            id='courses'
-            className={styles.container}>
+        <section id='courses' className={styles.container}>
             <h1 className='sectionTitle'>Coursework</h1>
             <div className={styles.courseList}>
-                <Course
-                    src={notebook}
-                    name='Advanced Data Structures'
-                    code='CMSC 420'
-                />
-                <Course
-                    src={notebook}
-                    name='Algorithms'
-                    code='CMSC 351'
-                />
-                <Course
-                    src={notebook}
-                    name='Machine Learning'
-                    code='CMSC 422'
-                />
-                <Course
-                    src={notebook}
-                    name='Network & Security'
-                    code='CMSC 414'
-                />
-                <Course
-                    src={notebook}
-                    name='Compilers'
-                    code='CMSC 430'
-                />
-                <Course
-                    src={notebook}
-                    name='Computer Vision'
-                    code='CMSC 426'
-                />
-                <Course
-                    src={notebook}
-                    name='Computer Systems'
-                    code='CMSC 216'
-                />
-                <Course
-                    src={notebook}
-                    name='Data Science'
-                    code='CMSC 320'
-                />
-                <Course
-                    src={notebook}
-                    name='Web Development'
-                    code='CMSC 335'
-                />
-                <Course
-                    src={notebook}
-                    name='Linear Algebra'
-                    code='MATH 240 & MATH 401'
-                />
+                <Course src={notebook} name='Advanced Data Structures' code='CMSC420' />
+                <Course src={notebook} name='Algorithms' code='CMSC351' />
+                <Course src={notebook} name='Machine Learning' code='CMSC422' />
+                <Course src={notebook} name='Network & Security' code='CMSC414' />
+                <Course src={notebook} name='Compilers' code='CMSC430' />
+                <Course src={notebook} name='Computer Vision' code='CMSC426' />
+                <Course src={notebook} name='Computer Systems' code='CMSC216' />
+                <Course src={notebook} name='Data Science' code='CMSC320' />
+                <Course src={notebook} name='Web Development' code='CMSC335' />
+                <Course src={notebook} name='Object-Oriented Programming II' code='CMSC131 & CMSC132' />
+                <Course src={notebook} name='Linear Algebra' code='MATH240 & MATH401' />
             </div>
         </section>
     );
