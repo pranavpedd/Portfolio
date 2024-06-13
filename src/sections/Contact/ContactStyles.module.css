@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'CircularStd-Book';
+  src: url('../../../fonts/CircularStd-Book.woff') format('woff');
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -15,6 +20,7 @@ textarea, input:not([type='submit']) {
     height: 50px;
     padding-left: 16px;
     width: 250px;
+    font-family: 'CircularStd-Book';
 }
 
 input:not([type='submit']):hover {
@@ -53,6 +59,7 @@ input[type='submit'] {
   height: 50px;
   font-size: 20px;
   font-weight: bold;
+  font-family: 'CircularStd-Book';
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
   margin: auto;
