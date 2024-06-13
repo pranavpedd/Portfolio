@@ -27,3 +27,7 @@ package.json
 *.njsproj
 *.sln
 *.sw?
+
+# images
+image-1.png
+image.png
