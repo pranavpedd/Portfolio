@@ -6,7 +6,7 @@ Visit my site here: <https://pranavpedd.netlify.app/>
 <img width="1440" alt="image" src="https://github.com/pranavpedd/Portfolio/assets/87783549/eea2e6b8-650c-4980-b920-56951be5c21e">
 
 ### About
-This website, built using React.js and Vite, showcases my aspirations, project work, and technological background. It is a dynamic platform that I will continuously enhance as I gain more experience in front-end development. This is not the final product but rather an evolving portfolio to display my resume in an aesthetically pleasing manner and to practice my front-end development skills.
+This website, built using React.js and Vite, showcases my aspirations, project work, prior work experience, technological background, certifications, and a form to contact me. It is a dynamic platform that I will continuously enhance as I gain more experience in software development. This is not the final product but rather an evolving portfolio to display my resume in an aesthetically pleasing manner and to practice my software development skills.
 
 ### Technologies used
 
@@ -43,4 +43,4 @@ This website, built using React.js and Vite, showcases my aspirations, project w
 
 * Icons are from [icons8](https://icons8.com)
 * Pfp and project icons are from [ChatGPT](https://chatgpt.com) using the DALL-E model  
-* Fonts were imported from [Google Fonts](https://fonts.google.com/)
+* Fonts were imported from [Google Fonts](https://fonts.google.com/) and [BeFonts](https://befonts.com/)
