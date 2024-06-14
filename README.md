@@ -10,5 +10,5 @@ This website was built using React.js and Vite. This website contains my aspirat
 ### References
 
 Icons are from: <https://icons8.com>  
-Pfp and project icons for StockPricePredictor, SpotRecs, and DivUp are from <https://chatgpt.com> using the DALL-E model  
+Pfp and project icons are from <https://chatgpt.com> using the DALL-E model  
 Fonts were imported from: <https://fonts.google.com/>  
