@@ -1,5 +1,7 @@
 import githubDark from '../../assets/github-dark.svg';
 import githubLight from '../../assets/github-light.svg';
+import instagramDark from '../../assets/instagram-dark.png';
+import instagramLight from '../../assets/instagram-light.png';
 import linkedinDark from '../../assets/linkedin-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import moon from '../../assets/moon.svg';
@@ -14,6 +16,7 @@ function Intro() {
     const themeIcon = theme === 'light' ? sun : moon;
     const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
     const githubIcon = theme === 'light' ? githubLight : githubDark;
+    const instagramIcon = theme === 'light' ? instagramLight : instagramDark;
 
     return (
         <section id='intro' className={styles.container}>
@@ -35,7 +38,10 @@ function Intro() {
                         <img src={linkedinIcon} alt='linked in icon'></img>
                     </a>
                     <a href='https://github.com/pranavpedd' target='_blank'>
-                        <img src={githubIcon} alt='github in icon'></img>
+                        <img src={githubIcon} alt='github icon'></img>
+                    </a>
+                    <a href='https://www.instagram.com/pranavpedd/' target='_blank'>
+                        <img src={instagramIcon} alt='instagram icon' />
                     </a>
                 </span>
                 <p className={styles.description}>
