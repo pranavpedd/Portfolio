@@ -1,6 +1,6 @@
 # Personal Portfolio v1.0
 
-Link to site goes here
+Visit my site here: <https://pranavpedd.netlify.app/>
 
 <img width="1440" alt="image" src="https://github.com/pranavpedd/Portfolio/assets/87783549/ed5d89e6-6a4c-46ca-b124-f18414d4b88c">
 <img width="1440" alt="image" src="https://github.com/pranavpedd/Portfolio/assets/87783549/eea2e6b8-650c-4980-b920-56951be5c21e">
