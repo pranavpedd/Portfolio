@@ -36,6 +36,10 @@
     justify-content: center;
 }
 
+.imageContainer a:hover {
+    cursor: pointer;
+}
+
 .umd img {
     max-width: 350px;
 }

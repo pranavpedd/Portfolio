@@ -23,21 +23,24 @@ function Skills() {
                 <SkillList src={checkmark} skill='Ruby' />
                 <SkillList src={checkmark} skill='Racket' />
                 <SkillList src={checkmark} skill='SAS' />
-                <SkillList src={checkmark} skill='Typescript' />
+                <SkillList src={checkmark} skill='OCaml' />
+                <SkillList src={checkmark} skill='TypeScript' />
                 <SkillList src={checkmark} skill='SQL' />
                 <SkillList src={checkmark} skill='x86/a86' />
             </div>
             <hr />
             <div className={styles.skillsList}>
                 <SkillList src={checkmark} skill='TensorFlow' />
+                <SkillList src={checkmark} skill='Keras' />
                 <SkillList src={checkmark} skill='React.js' />
                 <SkillList src={checkmark} skill='Node.js' />
                 <SkillList src={checkmark} skill='Express.js' />
+                <SkillList src={checkmark} skill='Vite' />
                 <SkillList src={checkmark} skill='Numpy' />
                 <SkillList src={checkmark} skill='Pandas' />
                 <SkillList src={checkmark} skill='Matplotlib' />
                 <SkillList src={checkmark} skill='Seaborn' />
-                <SkillList src={checkmark} skill='OpenAI API' />
+                <SkillList src={checkmark} skill='OpenAI & GPT' />
                 <SkillList src={checkmark} skill='Flask' />
                 <SkillList src={checkmark} skill='OpenCV' />
             </div>
@@ -47,10 +50,9 @@ function Skills() {
                 <SkillList src={checkmark} skill='Azure' />
                 <SkillList src={checkmark} skill='AWS' />
                 <SkillList src={checkmark} skill='MongoDB' />
-                <SkillList src={checkmark} skill='Power BI' />
+                <SkillList src={checkmark} skill='PowerBI' />
                 <SkillList src={checkmark} skill='Anaconda' />
                 <SkillList src={checkmark} skill='Jupyter' />
-                <SkillList src={checkmark} skill='Flask' />
                 <SkillList src={checkmark} skill='MySQL' />
             </div>
         </section>
