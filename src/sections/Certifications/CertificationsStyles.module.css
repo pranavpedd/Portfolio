@@ -4,35 +4,41 @@
     text-align: center;
 
     img {
-        max-width: 250px;
+        max-width: 210px;
         align-self: center;
-        border-radius: 20px;
     }
 }
 
-.card {
+.certificationCard {
     width: fit-content;
     text-decoration: none;
-    color: #222;
     transition: transform 200ms ease-in-out;
 }
 
-.card:hover {
-    transform: scale(1.1);
+.certificationCard:hover {
+    transform: scale(1.15);
+    cursor: pointer;
 }
 
-.projectsContainer {
+.certificationsContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 30px;
+    padding: 20px;
+}
+
+.pythonImage img {
+    max-width: 150px;
+    align-self: center;
 }
 
 @media (width >= 800px) {
-    .projectsContainer {
+    .certificationsContainer {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        padding: 0 30px;
+        padding: 0 250px;
     }
 }
+

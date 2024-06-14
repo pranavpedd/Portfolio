@@ -43,8 +43,8 @@ function Intro() {
                     Science and Statistics.
                 </p>
                 <p className={styles.description}>
-                    Below, you will find my notable projects, technologies, coursework, and a form
-                    to contact me.
+                    Below, you will find my notable projects, technologies, coursework,
+                    certifications, and a form to contact me.
                 </p>
             </div>
         </section>

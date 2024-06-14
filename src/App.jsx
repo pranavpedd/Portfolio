@@ -1,4 +1,5 @@
 import './App.css';
+import Certifications from './sections/Certifications/Certifications';
 import Contact from './sections/Contact/Contact';
 import Courses from './sections/Coursework/Courses';
 import Footer from './sections/Footer/Footer';
@@ -13,6 +14,7 @@ function App() {
             <Projects />
             <Skills />
             <Courses />
+            <Certifications />
             <Contact />
             <Footer />
         </>

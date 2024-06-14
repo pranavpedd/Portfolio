@@ -6,8 +6,7 @@ function Footer() {
             id='footer'
             className={styles.container}>
             <p>
-                &copy; 2024 Pranav Peddamalla <br />
-                All rights reserved
+                &copy; 2024 Pranav Peddamalla
             </p>
         </section>
     );

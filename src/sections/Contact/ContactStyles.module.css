@@ -15,8 +15,7 @@ form {
     gap: 30px;
 }
 
-textarea,
-input:not([type='submit']) {
+textarea, input:not([type='submit']) {
     height: 50px;
     padding-left: 16px;
     width: 250px;
@@ -37,8 +36,7 @@ textarea {
     height: 250px;
 }
 
-input,
-textarea {
+input, textarea {
     border-radius: 20px;
     border: #888 2px solid;
     box-sizing: border-box;
@@ -76,8 +74,7 @@ input[type='submit']:active {
 }
 
 @media (width >= 800px) {
-    textarea,
-    input:not([type='submit']) {
+    textarea, input:not([type='submit']) {
         width: 600px;
         font-size: 20px;
     }
@@ -87,8 +84,7 @@ input[type='submit']:active {
 }
 
 @media (width >= 1400px) {
-    textarea,
-    input:not([type='submit']) {
+    textarea, input:not([type='submit']) {
         width: 800px;
     }
 }

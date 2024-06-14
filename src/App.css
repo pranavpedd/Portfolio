@@ -38,18 +38,13 @@ body {
     gap: 20px;
 }
 
-h1,
-h2,
-h3,
-p {
+h1, h2, h3, p {
     color: var(--text-color);
     margin: 0;
     padding: 0;
 }
 
-h2,
-h3,
-p {
+h2, h3, p {
     font-family: 'CircularStd-Book', monospace;
 }
 
@@ -57,8 +52,7 @@ h1 {
     text-transform: uppercase;
 }
 
-h2,
-h3 {
+h2, h3 {
     font-size: 20px;
 }
 
@@ -89,8 +83,7 @@ p {
         font-size: 40px;
     }
 
-    h2,
-    h3 {
+    h2, h3 {
         font-size: 24px;
     }
 
