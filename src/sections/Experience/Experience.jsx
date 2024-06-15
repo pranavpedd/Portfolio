@@ -10,14 +10,14 @@ function Experience() {
             <div className={styles.experienceContainer}>
                 <WorkExperience
                     src={umd}
-                    link='https://umd.edu/'
+                    link='https://robotics.umd.edu/research-area-tags/autonomous-unmanned-systems'
                     position='Research Assistant'
                     dates='Jan 2022 - May 2022'
                     className={styles.umd}
                 />
                 <WorkExperience
                     src={umd}
-                    link='https://umd.edu/'
+                    link='https://www.fire.umd.edu/qml'
                     position='Research Assistant'
                     dates='Aug 2022 - Dec 2022'
                     className={styles.umd}
