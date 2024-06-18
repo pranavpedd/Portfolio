@@ -50,9 +50,9 @@ function Skills() {
                 <SkillList src={checkmark} skill='Azure' />
                 <SkillList src={checkmark} skill='AWS' />
                 <SkillList src={checkmark} skill='MongoDB' />
-                <SkillList src={checkmark} skill='PowerBI' />
                 <SkillList src={checkmark} skill='Anaconda' />
                 <SkillList src={checkmark} skill='Jupyter' />
+                <SkillList src={checkmark} skill='Docker' />
                 <SkillList src={checkmark} skill='MySQL' />
             </div>
         </section>
