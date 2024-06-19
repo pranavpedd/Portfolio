@@ -2,8 +2,8 @@
 
 Visit my site here: <https://pranavpedd.netlify.app/>
 
-<img width="1440" alt="image" src="https://github.com/pranavpedd/Portfolio/assets/87783549/ed5d89e6-6a4c-46ca-b124-f18414d4b88c">
-<img width="1440" alt="image" src="https://github.com/pranavpedd/Portfolio/assets/87783549/eea2e6b8-650c-4980-b920-56951be5c21e">
+<img width="1440" alt="image" src="https://github.com/pranavpedd/Portfolio/assets/87783549/f9b1f431-065f-4767-accc-bf42a7db0ab2">
+<img width="1440" alt="image" src="https://github.com/pranavpedd/Portfolio/assets/87783549/92436600-8564-4a0d-8684-c559854310d8">
 
 ### About
 This website, built using React.js and Vite, showcases my aspirations, project work, prior work experience, technological background, certifications, and a form to contact me. It is a dynamic platform that I will continuously enhance as I gain more experience in software development. This is not the final product but rather an evolving portfolio to display my resume in an aesthetically pleasing manner and to practice my software development skills.
@@ -12,7 +12,7 @@ This website, built using React.js and Vite, showcases my aspirations, project w
 
 * React.js
 * Vite
-* HTML, CSS, JavaScript
+* JavaScript, HTML, CSS
 * Deployed on [Netlify](https://www.netlify.com/)
 
 ### Design choices
@@ -36,11 +36,13 @@ This website, built using React.js and Vite, showcases my aspirations, project w
 
 ### Future plans
 
-* Developing a blog feature to keep track of my thoughts and interests
-* Connect my custom domain with HTTPS
+* Connect my custom domain
+* Purchase an SSL certificate to allow HTTPS connections
 
 ### References
 
 * Icons are from [icons8](https://icons8.com)
+* Company logos are from [Google Images](https://images.google.com/)
 * Pfp and project icons are from [ChatGPT](https://chatgpt.com) using the DALL-E model  
-* Fonts were imported from [Google Fonts](https://fonts.google.com/) and [BeFonts](https://befonts.com/)
+* Fonts were imported/downloaded from [Google Fonts](https://fonts.google.com/) and [BeFonts](https://befonts.com/)
+* Animations were done using [React Awesome Reveal](https://www.npmjs.com/package/react-awesome-reveal)
