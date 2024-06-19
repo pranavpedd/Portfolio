@@ -51,6 +51,7 @@ function Skills() {
                 <SkillList src={checkmark} skill='AWS' />
                 <SkillList src={checkmark} skill='MongoDB' />
                 <SkillList src={checkmark} skill='Anaconda' />
+                <SkillList src={checkmark} skill='Databricks' />
                 <SkillList src={checkmark} skill='Jupyter' />
                 <SkillList src={checkmark} skill='Docker' />
                 <SkillList src={checkmark} skill='MySQL' />
