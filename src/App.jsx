@@ -1,3 +1,4 @@
+import { Fade } from 'react-awesome-reveal';
 import './App.css';
 import Certifications from './sections/Certifications/Certifications';
 import Contact from './sections/Contact/Contact';
@@ -9,9 +10,12 @@ import Projects from './sections/ProjectWork/Projects';
 import Skills from './sections/Skills/Skills';
 
 function App() {
+
     return (
         <>
-            <Intro />
+            <Fade direction='down' triggerOnce cascade>
+                <Intro />
+            </Fade>
             <Projects />
             <Experience />
             <Skills />

@@ -43,12 +43,13 @@
 
 .colorMode {
     position: absolute;
-    right: 0;
     width: 30px;
+    transition: transform 200ms ease-in-out;
 }
 
 .colorMode:hover {
     cursor: pointer;
+    transform: scale(1.3);
 }
 
 .description {
