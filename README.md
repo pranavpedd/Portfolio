@@ -1,4 +1,4 @@
-# Personal Portfolio v1.0
+# Personal Portfolio v2.0
 
 <img width="1440" alt="image" src="https://github.com/pranavpedd/Portfolio/assets/87783549/f9b1f431-065f-4767-accc-bf42a7db0ab2">
 <img width="1440" alt="image" src="https://github.com/pranavpedd/Portfolio/assets/87783549/92436600-8564-4a0d-8684-c559854310d8">
