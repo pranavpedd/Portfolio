@@ -28,6 +28,8 @@ function Skills() {
                     <SkillList src={checkmark} skill='OCaml' />
                     <SkillList src={checkmark} skill='TypeScript' />
                     <SkillList src={checkmark} skill='SQL' />
+                    <SkillList src={checkmark} skill='R' />
+                    <SkillList src={checkmark} skill='MATLAB' />
                     <SkillList src={checkmark} skill='x86/a86' />
                 </Fade>
             </div>
