@@ -20,6 +20,7 @@ textarea, input:not([type='submit']) {
     padding-left: 16px;
     width: 250px;
     font-family: 'CircularStd-Book';
+    font-size: 15px;
 }
 
 input:not([type='submit']):hover {
@@ -56,7 +57,7 @@ input[type='submit'] {
     border-radius: 20px;
     width: 126px;
     height: 50px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     font-family: 'CircularStd-Book';
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
