@@ -1,6 +1,6 @@
 /* eslint-disable */
 
-import { Fade, Slide } from 'react-awesome-reveal';
+import { Fade } from 'react-awesome-reveal';
 import checkmarkDark from '../../assets/checkmark-dark.svg';
 import checkmarkLight from '../../assets/checkmark-light.svg';
 import SkillList from '../../groupedComponents/SkillList';
@@ -33,9 +33,9 @@ function Skills() {
                     <SkillList src={checkmark} skill='x86/a86' />
                 </Fade>
             </div>
-            <Slide direction='left' delay={delay} triggerOnce>
+            <Fade direction='left' delay={delay} triggerOnce>
                 <hr />
-            </Slide>
+            </Fade>
             <div className={styles.skillsList}>
                 <Fade delay={delay} triggerOnce>
                     <SkillList src={checkmark} skill='TensorFlow' />
@@ -54,9 +54,9 @@ function Skills() {
                     <SkillList src={checkmark} skill='Django' />
                 </Fade>
             </div>
-            <Slide direction='right' delay={delay} triggerOnce>
+            <Fade direction='right' delay={delay} triggerOnce>
                 <hr />
-            </Slide>
+            </Fade>
             <div className={styles.skillsList}>
                 <Fade delay={delay} triggerOnce>
                     <SkillList src={checkmark} skill='Git/Github' />
