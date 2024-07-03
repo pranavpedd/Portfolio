@@ -4,7 +4,9 @@
 <img width="1440" alt="image" src="https://github.com/pranavpedd/Portfolio/assets/87783549/92436600-8564-4a0d-8684-c559854310d8">
 
 ### About
-This website, built using React.js and Vite, showcases my aspirations, project work, prior work experience, technological background, certifications, and a form to contact me. It is a dynamic platform that I will continuously enhance as I gain more experience in software development. This is not the final product but rather an evolving portfolio to display my resume in an aesthetically pleasing manner and to practice my software development skills. Visit my site here: <https://pranavpedd.netlify.app/>
+This website, built using React.js and Vite, showcases my aspirations, project work, prior work experience, technological background, certifications, and a form to contact me. It is a dynamic platform that I will continuously enhance as I gain more experience in software development. This is not the final product but rather an evolving portfolio to display my resume in an aesthetically pleasing manner and to practice my software development skills. 
+
+Visit my site here: <https://pranavpedd.netlify.app/>
 
 ### Technologies used
 
