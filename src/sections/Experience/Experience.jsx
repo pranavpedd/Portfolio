@@ -46,7 +46,7 @@ function Experience() {
                         src={oshkosh}
                         link='https://www.oshkoshcorp.com/'
                         position='Data Engineering Intern'
-                        dates='Aug 2023 - May 2024'
+                        dates='Sep 2023 - May 2024'
                         className={styles.oshkosh}
                     />
                 </Fade>
