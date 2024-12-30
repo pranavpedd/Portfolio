@@ -20,12 +20,14 @@ function Skills() {
                     <SkillList src={checkmark} skill='Python' />
                     <SkillList src={checkmark} skill='JavaScript' />
                     <SkillList src={checkmark} skill='Java' />
-                    <SkillList src={checkmark} skill='C' />
+                    <SkillList src={checkmark} skill='C/C#/C++' />
                     <SkillList src={checkmark} skill='Rust' />
                     <SkillList src={checkmark} skill='Ruby' />
                     <SkillList src={checkmark} skill='Racket' />
                     <SkillList src={checkmark} skill='SAS' />
                     <SkillList src={checkmark} skill='OCaml' />
+                    <SkillList src={checkmark} skill='Go' />
+                    <SkillList src={checkmark} skill='Swift' />
                     <SkillList src={checkmark} skill='TypeScript' />
                     <SkillList src={checkmark} skill='SQL' />
                     <SkillList src={checkmark} skill='R' />
@@ -46,12 +48,16 @@ function Skills() {
                     <SkillList src={checkmark} skill='Vite' />
                     <SkillList src={checkmark} skill='Numpy' />
                     <SkillList src={checkmark} skill='Pandas' />
+                    <SkillList src={checkmark} skill='PyTorch' />
                     <SkillList src={checkmark} skill='Matplotlib' />
                     <SkillList src={checkmark} skill='Seaborn' />
                     <SkillList src={checkmark} skill='OpenAI API' />
                     <SkillList src={checkmark} skill='Flask' />
                     <SkillList src={checkmark} skill='OpenCV' />
                     <SkillList src={checkmark} skill='Django' />
+                    <SkillList src={checkmark} skill='Maven' />
+                    <SkillList src={checkmark} skill='SpringBoot' />
+                    <SkillList src={checkmark} skill='PySpark' />
                 </Fade>
             </div>
             <Fade direction='right' delay={delay} triggerOnce>
@@ -68,7 +74,7 @@ function Skills() {
                     <SkillList src={checkmark} skill='Jupyter' />
                     <SkillList src={checkmark} skill='Docker' />
                     <SkillList src={checkmark} skill='MySQL' />
-                    <SkillList src={checkmark} skill='PySpark' />
+                    <SkillList src={checkmark} skill='PowerBI' />
                 </Fade>
             </div>
         </section>

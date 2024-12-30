@@ -30,7 +30,7 @@ function Intro() {
                     Pranav <br /> Peddamalla
                 </h1>
                 <Fade direction='left' delay={delay} triggerOnce>
-                    <h2>Aspiring Full-Stack Developer</h2>
+                    <h2>Aspiring Full-Stack Developer / Data Scientist</h2>
                 </Fade>
                 <span>
                     <a href='https://www.linkedin.com/in/pranavpedd/' target='_blank'>
@@ -44,7 +44,7 @@ function Intro() {
                     </a>
                 </span>
                 <p className={styles.description}>
-                    I am a senior at the University of Maryland, College Park, studying Computer Science and Statistics.
+                    I am a graduate from the University of Maryland, College Park and am currently pursuing my M.S. in Data Science at the University of Pennsylvania.
                 </p>
                 <p className={styles.description}>
                     Below, you will find my notable projects, prior work experience, technologies, coursework, certifications, and a
