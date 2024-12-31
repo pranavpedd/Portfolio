@@ -1,7 +1,7 @@
 # Personal Portfolio v2.0
 
-![dark mode front page](image-2.png)
-![light mode front page](image-3.png)
+![dark mode front](image.png)
+![light mode front](image-1.png)
 
 ### About
 This website, built using React.js and Vite, showcases my aspirations, project work, prior work experience, technological background, and a form to contact me. It is a dynamic platform that I will continuously enhance as I gain more experience in software development. This is not the final product but rather an evolving portfolio to display my resume in an aesthetically pleasing manner and to practice my software development skills. 
