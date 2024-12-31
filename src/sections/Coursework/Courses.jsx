@@ -27,11 +27,11 @@ function Courses() {
                     <Course src={notebook} name='Programming Languages' code='CMSC330' />
                     <Course src={notebook} name='Data Science' code='CMSC320' />
                     <Course src={notebook} name='Web Development' code='CMSC335' />
-                    <Course src={notebook} name='Object-Oriented Programming II' code='CMSC131 & CMSC132' />
+                    <Course src={notebook} name='Object-Oriented Programming' code='CMSC131 & CMSC132' />
                     <Course src={notebook} name='Discrete Structures' code='CMSC250' />
                     <Course src={notebook} name='Linear Algebra' code='MATH240 & MATH401' />
-                    <Course src={notebook} name='Calculus III' code='MATH241' />
-                    <Course src={notebook} name='Applied Statistics I & II' code='STAT400 & STAT401' />
+                    <Course src={notebook} name='Calculus III' code='MATH141 & MATH241' />
+                    <Course src={notebook} name='Applied Statistics' code='STAT400 & STAT401' />
                 </Fade>
             </div>
         </section>

@@ -5,7 +5,7 @@ function Footer() {
         <section id='footer' className={styles.container}>
             <p>&copy; 2024 Pranav Peddamalla</p>
             <p>
-                Icons are from <a href='https://icons8.com' target='blank'>icons8</a>
+                icons are from <a href='https://icons8.com' target='blank'>icons8</a>
             </p>
         </section>
     );
