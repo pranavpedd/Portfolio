@@ -44,7 +44,7 @@ function Intro() {
                     </a>
                 </span>
                 <p className={styles.description}>
-                    I am a graduate from the University of Maryland, College Park and am currently pursuing my M.S. in Data Science at the University of Pennsylvania.
+                    I am a Computer Science graduate from the University of Maryland, College Park and am currently pursuing my M.S.E in Data Science at the University of Pennsylvania.
                 </p>
                 <p className={styles.description}>
                     Below, you will find my notable projects, prior work experience, technologies, coursework, and a
