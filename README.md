@@ -38,6 +38,7 @@ Visit my site here: <https://pranavpedd.netlify.app/>
 
 * Connect my custom domain
 * Purchase an SSL certificate to allow HTTPS connections
+* * Add more work experiences as I get them!
 
 ### References
 
